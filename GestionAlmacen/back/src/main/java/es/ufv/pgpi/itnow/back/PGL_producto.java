@@ -6,6 +6,7 @@ public class  PGL_producto {
     private String nombre_producto;
     private int existencias;
     private String ubicacion;
+    private int precio;
 
     public String getID() {
         return ID;
@@ -39,8 +40,11 @@ public class  PGL_producto {
         this.ubicacion = ubicacion;
     }
 
+    public int getPrecio() {
+        return precio;
+    }
 
-
-
-
+    public void setPrecio(int precio) {
+        this.precio = precio;
+    }
 }
