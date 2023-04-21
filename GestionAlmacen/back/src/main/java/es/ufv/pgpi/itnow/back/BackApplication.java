@@ -8,6 +8,9 @@ public class BackApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BackApplication.class, args);
+
+		PGL_BDDTemporal bddTemporal = new PGL_BDDTemporal();
+
 	}
 
 }
