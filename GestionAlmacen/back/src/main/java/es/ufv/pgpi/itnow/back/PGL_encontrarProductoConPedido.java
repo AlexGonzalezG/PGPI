@@ -1,3 +1,4 @@
+/*
 package es.ufv.pgpi.itnow.back;
 
 public class PGL_encontrarProductoConPedido {
@@ -16,15 +17,3 @@ public class PGL_encontrarProductoConPedido {
         cantidad solicitada (si no hay existencias, mensaje de "se pedirá al proveedor")
         precio total
          */
-
-
-
-
-
-    }
-
-
-
-
-}
-

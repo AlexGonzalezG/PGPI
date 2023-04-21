@@ -6,7 +6,7 @@ public class  PGL_producto {
     private String nombre_producto;
     private int existencias;
     private String ubicacion;
-    private int precio;
+    private float precio;
 
     public String getID() {
         return ID;
@@ -40,11 +40,33 @@ public class  PGL_producto {
         this.ubicacion = ubicacion;
     }
 
-    public int getPrecio() {
+    public float getPrecio() {
         return precio;
     }
 
-    public void setPrecio(int precio) {
+    public void setPrecio(float precio) {
         this.precio = precio;
+    }
+
+    public PGL_producto(String ID, String nombre_producto, int existencias, String ubicacion, float precio) {
+        this.ID = ID;
+        this.nombre_producto = nombre_producto;
+        this.existencias = existencias;
+        this.ubicacion = ubicacion;
+        this.precio = precio;
+    }
+
+    public PGL_producto() {
+    }
+
+    @Override
+    public String toString() {
+        return "PGL_producto{" +
+                "ID='" + ID + '\'' +
+                ", nombre_producto='" + nombre_producto + '\'' +
+                ", existencias=" + existencias +
+                ", ubicacion='" + ubicacion + '\'' +
+                ", precio=" + precio +
+                '}';
     }
 }
