@@ -48,8 +48,7 @@ public class  PGL_producto {
         this.precio = precio;
     }
 
-    public PGL_producto(String ID, String nombre_producto, int existencias, String ubicacion, float precio) {
-        this.ID = ID;
+    public PGL_producto(String nombre_producto, int existencias, String ubicacion, float precio) {
         this.nombre_producto = nombre_producto;
         this.existencias = existencias;
         this.ubicacion = ubicacion;
